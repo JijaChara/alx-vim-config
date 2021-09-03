@@ -127,15 +127,17 @@ set encoding=utf-8
 " or undo your changes first
 "set hidden
 
-"set nocompatible           " useless
+" set nocompatible           " useless
 
 set visualbell
 set noerrorbells            " no sounds
-set tabstop=4               " size of tabs   (set ts=4 also works)
-set shiftwidth=4            " indent using '>' uses 4 spaces
-set softtabstop=4
-set expandtab               " tabs => spaces
+set tabstop=8               " size of tabs   (set ts=8 also works)
+set shiftwidth=8            " indent using '>' uses 8 spaces
+set softtabstop=8
+set noexpandtab		    " spaces => tabs
+" set expandtab               " tabs => spaces
 set smartindent
+set cindent
 set number                  " line numbers (set nu)
 set relativenumber
 set nowrap                  " no wrapping of long lines
